@@ -77,9 +77,9 @@
         map.setOptions({styles:map_style.google_maps_customization_style});
 
         var TorqueOptions = {
-            user: "markh",
-            table: "crimes",
-            column: "dispatch_date_time",
+            user: "azavea",
+            table: "plots",
+            column: "last_updat",
             cumulative: true,
             resolution: 2,
             steps: 325,
@@ -101,7 +101,7 @@
 
         var ribbonBlock = document.getElementById('ribbon');
         var ribbon = document.createElement('a');
-        ribbon.setAttribute('href', 'https://github.com/mheadd/philly-homicides');
+        ribbon.setAttribute('href', 'https://github.com/andrewbt/philly-trees');
 
         var link = document.createElement('img');
         link.setAttribute('style', 'position: absolute; top: 0; right: 0; border: 0;');
