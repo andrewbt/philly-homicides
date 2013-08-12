@@ -77,19 +77,19 @@
         map.setOptions({styles:map_style.google_maps_customization_style});
 
         var TorqueOptions = {
-            user: "azavea",
-            table: "plots",
-            column: "last_updat",
+            user: "andrewbt",
+            table: "plots_and_trees",
+            column: "tree_last_updated",
             cumulative: true,
             resolution: 2,
-            steps: 50,
-            fps: 24,
+            steps: 750,
+            fps: 20,
             fitbounds: false,
             clock: true,
             blendmode: 'source-over',
             trails: true,
-            point_type:'square',
-            cellsize:2
+            point_type:'circle',
+            cellsize:1
         }
 
         var torque = null;
