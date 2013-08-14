@@ -78,7 +78,7 @@
 
         var TorqueOptions = {
             user: "andrewbt",
-            table: "plots_and_trees",
+            table: "(SELECT * from plots_and_trees where tree_last_updated > '2011-06-22') i",
             column: "tree_last_updated",
             cumulative: false,
             resolution: 2,
