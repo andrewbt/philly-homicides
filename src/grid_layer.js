@@ -164,7 +164,7 @@ TimePlayer.prototype.get_time_data = function (tile, coord, zoom) {
         "      round(CAST (st_xmax(hgrid.cell) AS numeric),4) x, round(CAST (st_ymax(hgrid.cell) AS numeric),4) y, " +
         "      {0} c, floor((date_part('epoch',{1})- {2})/{3}) d ".format(this.countby, this.t_column, this.MIN_DATE, this.step) +
         "    FROM " +
-        "        hgrid, {0} ".format(this.table) +
+        "        hgrid, {0} i".format(this.table) +
         "    WHERE " +
         "        ST_Intersects(i.the_geom_webmercator, hgrid.cell) " +
         "    GROUP BY " +
