@@ -1,5 +1,5 @@
-philly-trees: Visualizing PhillyTreeMap.org User Contributions over time
-============
+# philly-trees
+### Visualizing PhillyTreeMap.org User Contributions over time
 
 Four visualizations that use data from PhillyTreeMap.org and the CartoDB Torque.js library to display user contributions of trees and tree planting sites (plots) in and around Philadelphia from 06/21/2011 - 07/24/2012.
 
